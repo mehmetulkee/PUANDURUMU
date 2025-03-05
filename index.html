@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="tr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Lig Tablosu</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <h1>AGONY 2024-2025 Futbol Lig Tablosu</h1>
+
+        <!-- Maç Sonucu Ekle -->
+        <div class="match-form">
+            <select id="takim1" class="select-team"></select>
+            <input type="number" id="gol1" class="score-input" placeholder="Gol Sayısı">
+            <span>-</span>
+            <input type="number" id="gol2" class="score-input" placeholder="Gol Sayısı">
+            <select id="takim2" class="select-team"></select>
+            <button id="sonucEkle" class="btn">Maç Sonucu Ekle</button>
+        </div>
+
+        <!-- Lig Tablosu -->
+        <table id="ligTablosu" class="table">
+            <thead>
+                <tr>
+                    <th>#</th>
+                    <th>Takım</th>
+                    <th>O</th>
+                    <th>G</th>
+                    <th>B</th>
+                    <th>M</th>
+                    <th>AG</th>
+                    <th>YG</th>
+                    <th>A</th>
+                    <th>P</th>
+                    <th>Son 5 Maç</th>
+                </tr>
+            </thead>
+            <tbody></tbody>
+        </table>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
